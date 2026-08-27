@@ -1,0 +1,24 @@
+{
+  "name": "لوحة الأبدية • مقياس الكون ومواقيت الصلاة",
+  "short_name": "الأبدية",
+  "description": "منظومة إيمانية شاملة للمقياس الكوني، الورد القرآني الموثق، مواقيت الصلاة الحية، والصدقة الجارية",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#051424",
+  "theme_color": "#f7be1d",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/images/earth.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/earth.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

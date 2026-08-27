@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="uniglow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1e1b4b" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#0f172a" stop-opacity="0.95"/>
+      <stop offset="85%" stop-color="#312e81" stop-opacity="0.8"/>
+      <stop offset="97%" stop-color="#c084fc" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#f43f5e" stop-opacity="0.9"/>
+    </radialGradient>
+    <filter id="horizon">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <!-- Observable Universe Boundary Sphere -->
+  <circle cx="256" cy="256" r="235" fill="url(#uniglow)"/>
+  <circle cx="256" cy="256" r="235" fill="none" stroke="#f43f5e" stroke-width="3" opacity="0.8" filter="url(#horizon)"/>
+  <circle cx="256" cy="256" r="230" fill="none" stroke="#c084fc" stroke-width="1.5" stroke-dasharray="8 6" opacity="0.7"/>
+  <!-- Deep Cosmic Web Webbing -->
+  <g stroke="rgba(192, 132, 252, 0.4)" stroke-width="1">
+    <line x1="256" y1="256" x2="150" y2="120"/>
+    <line x1="256" y1="256" x2="360" y2="140"/>
+    <line x1="256" y1="256" x2="380" y2="340"/>
+    <line x1="256" y1="256" x2="160" y2="380"/>
+    <line x1="256" y1="256" x2="90" y2="240"/>
+    <line x1="256" y1="256" x2="420" y2="260"/>
+    <line x1="150" y1="120" x2="260" y2="70"/>
+    <line x1="360" y1="140" x2="260" y2="70"/>
+    <line x1="360" y1="140" x2="440" y2="210"/>
+    <line x1="380" y1="340" x2="440" y2="210"/>
+    <line x1="380" y1="340" x2="300" y2="440"/>
+    <line x1="160" y1="380" x2="300" y2="440"/>
+    <line x1="160" y1="380" x2="90" y2="340"/>
+    <line x1="90" y1="240" x2="90" y2="340"/>
+    <line x1="90" y1="240" x2="100" y2="160"/>
+    <line x1="150" y1="120" x2="100" y2="160"/>
+  </g>
+  <!-- Trillions of Galaxies Field (Glitter) -->
+  <g fill="#ffffff">
+    <circle cx="256" cy="256" r="4" fill="#fef08a"/>
+    <circle cx="150" cy="120" r="3"/>
+    <circle cx="360" cy="140" r="3.5"/>
+    <circle cx="380" cy="340" r="3"/>
+    <circle cx="160" cy="380" r="3"/>
+    <circle cx="90" cy="240" r="2.5"/>
+    <circle cx="420" cy="260" r="2.5"/>
+    <circle cx="260" cy="70" r="3"/>
+    <circle cx="300" cy="440" r="2.5"/>
+  </g>
+</svg>
